@@ -1,0 +1,19 @@
+.container-flex {
+    display: flex;
+}
+
+.js-center {
+    justify-content: center;
+}
+
+.js-center {
+    justify-content: space-between;
+}
+
+
+.item {
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: red;
+}
