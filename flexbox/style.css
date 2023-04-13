@@ -10,13 +10,19 @@ main {
 /*
     FLEX
 */
-
 .container-flex {
     display: flex;
     height: 120px;
     width: 100%;
     padding: 10px;
     background-color: var(--bg-color)
+}
+
+.item {
+    width: 25%;
+    height: 50px;
+    margin: 10px;
+    background-color: var(--item-color);
 }
 
 .height-auto {
@@ -47,9 +53,3 @@ main {
     align-items: center;
 }
 
-.item {
-    width: 25%;
-    height: 50px;
-    margin: 10px;
-    background-color: var(--item-color);
-}
