@@ -1,19 +1,55 @@
+:root {
+    --bg-color: rgb(127, 84, 184);
+    --item-color: rgb(230, 146, 50);
+}
+
+main {
+    padding: 0 10vw;
+}
+
+/*
+    FLEX
+*/
+
 .container-flex {
     display: flex;
+    height: 120px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--bg-color)
+}
+
+.height-auto {
+    height: auto;
 }
 
 .js-center {
     justify-content: center;
 }
 
-.js-center {
+.js-between {
     justify-content: space-between;
 }
 
+.js-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.ai-center {
+    align-items: center;
+}
 
 .item {
-    width: 200px;
+    width: 25%;
     height: 50px;
-    margin-right: 20px;
-    background-color: red;
+    margin: 10px;
+    background-color: var(--item-color);
 }
